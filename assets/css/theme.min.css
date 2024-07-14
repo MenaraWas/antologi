@@ -5983,6 +5983,15 @@ button.bg-dark:hover {
 .bg-white {
   background-color: #fff !important;
 }
+.bg-cronica{
+  background-color: #FFF6F1 !important;
+}
+a.bg-cronica:focus,
+a.bg-cronica:hover,
+button.bg-cronica:focus,
+button.bg-cronica:hover {
+  background-color: #1d2124 !important;
+}
 .bg-transparent {
   background-color: transparent !important;
 }
