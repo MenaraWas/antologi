@@ -2391,6 +2391,43 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
+
+.btn-cronica {
+  color: #fff;
+  background-color: #E36E2B;
+  border-color: #E36E2B;
+}
+.btn-cronica:hover {
+  color: #fff;
+  background-color: #df844f;
+  border-color: #df844f;
+}
+.btn-cronica.focus,
+.btn-cronica:focus {
+  color: #fff;
+  background-color: #f3ac27;
+  border-color: #f2a71b;
+  box-shadow: 0 0 0 0.2rem rgba(247, 196, 102, 0.5);
+}
+.btn-cronica.disabled,
+.btn-cronica:disabled {
+  color: #fff;
+  background-color: #f5ba4b;
+  border-color: #f5ba4b;
+}
+.btn-cronica:not(:disabled):not(.disabled).active,
+.btn-cronica:not(:disabled):not(.disabled):active,
+.show > .btn-cronica.dropdown-toggle {
+  color: #fff;
+  background-color: #f2a71b;
+  border-color: #f2a30f;
+}
+.btn-cronica:not(:disabled):not(.disabled).active:focus,
+.btn-cronica:not(:disabled):not(.disabled):active:focus,
+.show > .btn-cronica.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(247, 196, 102, 0.5);
+}
+
 .btn-primary {
   color: #fff;
   background-color: #d2aa78;
